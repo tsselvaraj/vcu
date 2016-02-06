@@ -11,6 +11,7 @@ documents = ["Human machine interface for lab abc computer applications",
              "The intersection graph of paths in trees",
              "Graph minors IV Widths of trees and well quasi ordering",
              "Graph minors A survey"]
+
 true_k = 2
 vectorizer = TfidfVectorizer(stop_words='english')
 X = vectorizer.fit_transform(documents)
